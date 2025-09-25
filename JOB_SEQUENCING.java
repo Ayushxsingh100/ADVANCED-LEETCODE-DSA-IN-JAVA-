@@ -1,3 +1,4 @@
+
 // importing all the classes....
 import java.util.*;
 
@@ -22,7 +23,7 @@ public static void main(String[] args) {
     // A 2D ARRAY TO STORE THE DATA OOF THE JOBS 
     // FORMAT --> {DEADLINE , PROFIT}
     int jobINFO[][] = {{4,20},{1,10},{1,40},{1,30}};
-    // CREATED A ARRAY ;LIST TO STORE ALL job OBJECTS
+    // CREATED A ARRAY LIST TO STORE ALL job OBJECTS
     ArrayList<job> jobs = new ArrayList<>();
      // TRAVERSING IN THE jonINFO MATRIX
     for(int i =0; i < jobINFO.length ; i++){
@@ -50,11 +51,11 @@ public static void main(String[] args) {
         }
         // total how many jobs selected
         System.out.println(seq.size());
-        
+        // JOB SEQUENCE ID'S
         for(int i =0 ; i<seq.size();i++){
             System.out.println(seq.get(i));
         }
         System.out.println();
     }
 }
-}
+
